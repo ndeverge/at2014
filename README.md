@@ -1,0 +1,28 @@
+# Support de présentation "Une recette du Maker-Entrepreneur"
+
+Présentation donnée aux Agiles Tour de Montpellier, Toulouse et Bordeaux 2014, et Lean Kanban France 2014.
+
+A visualiser ici : http://ndeverge.github.io/at2014/
+
+## Pour voir la présentation sur votre ordi
+
+Vérifier que vous avez les outils suivants d'installés :
+
+1. [Node.js](http://nodejs.org)
+2. [Bower](http://bower.io): `$ npm install -g bower`
+3. [Grunt](http://gruntjs.com): `$ npm install -g grunt-cli`
+
+Ensuite, installer les dépendances et démarrer le serveur :
+
+```bash
+$ npm install && bower install
+$ grunt server
+```
+
+Pour déployer la préz sur votre github, en tant que Github page :
+
+```bash
+$ grunt deploy
+```
+
+Concocté avec [generator-bespoke](https://github.com/markdalgleish/generator-bespoke)
