@@ -227,13 +227,17 @@ small
 
 a
   color: primary
-  text-decoration: none
+  //text-decoration: none
   &.black
     color: black
   .bespoke-slide.light &
     color: rgba(0,0,0,0.7)
   .bespoke-slide.light h1 &
     color: primary
+
+strong
+  color: primary
+  font-weight: normal
 
 .avatar
   display: block
@@ -249,11 +253,11 @@ a
   display: block
   margin: 0 auto
   width: 500px
-  height: 333px
   border-radius: 30px
+  &--ratio
+    height: 333px
   &--small
     width: 320px
-    height: 240px
   &--no-border
     border-radius: 0px
 
@@ -270,8 +274,6 @@ a
   background-repeat: no-repeat
   &--fight
     background-image: url(../images/gif/fight.gif)
-  &--bubbles
-    background-image: url(../images/gif/bubbles.gif)
   &--cowboy-reaction
     background-image: url(../images/gif/demitri.gif)
   &--well-done
@@ -294,6 +296,10 @@ a
     background-image: url(../images/gif/lost.gif)
   &--omg
     background-image: url(../images/gif/omg.gif)
+  &--chuck
+    background-image: url(../images/gif/chuck.gif)
+  &--no-answer
+    background-image: url(../images/gif/no-answer.gif)
   &--questions
     background-image: url(../images/gif/tbl.gif)
     background-size: 80%
