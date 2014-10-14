@@ -348,9 +348,6 @@ strong {
   -webkit-border-radius: 30px;
   border-radius: 30px;
 }
-.picture--ratio {
-  height: 333px;
-}
 .picture--small {
   width: 320px;
 }
