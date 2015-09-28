@@ -344,7 +344,6 @@ strong {
 .picture {
   display: block;
   margin: 0 auto;
-  width: 500px;
   -webkit-border-radius: 30px;
   border-radius: 30px;
 }
